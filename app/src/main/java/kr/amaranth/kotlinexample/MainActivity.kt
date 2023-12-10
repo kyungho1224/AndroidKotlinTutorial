@@ -8,6 +8,7 @@ import android.text.TextWatcher
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
+import com.google.android.material.snackbar.Snackbar
 import kr.amaranth.kotlinexample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +18,13 @@ class MainActivity : AppCompatActivity() {
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        var clickCount = 0
+
+        binding.btnClick.setOnClickListener {
+            clickCount += 1
+            Snackbar.make(it, "click! $clickCount", Snackbar.LENGTH_SHORT).show()
+        }
 
     }
 
