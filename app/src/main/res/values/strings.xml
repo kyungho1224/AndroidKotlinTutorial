@@ -2,4 +2,8 @@
     <string name="app_name">KotlinExample</string>
 
     <string name="button_click_name">Click Me! Show SnackBar!</string>
+    <string name="button_intent_name">only intent</string>
+    <string name="button_intent_and_value_name">intent value</string>
+    <string name="button_intent_and_result_name">intent result</string>
+    <string name="button_result_return_name">Return Result Sum</string>
 </resources>
