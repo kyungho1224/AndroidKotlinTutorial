@@ -54,6 +54,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, FragmentActivity::class.java))
         }
 
+        binding.btnIntentThread.setOnClickListener {
+            startActivity(Intent(this, ThreadActivity::class.java))
+        }
+
     }
 
     private fun openActivityResultLauncher(): ActivityResultLauncher<Intent> {
