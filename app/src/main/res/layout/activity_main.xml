@@ -73,5 +73,10 @@
             tools:targetApi="o" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <Button
+        android:id="@+id/btn_intent_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_intent_to_fragment_name" />
 
 </LinearLayout>

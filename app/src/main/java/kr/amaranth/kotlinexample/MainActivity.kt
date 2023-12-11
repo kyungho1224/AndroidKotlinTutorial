@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(it, "click! $clickCount", Snackbar.LENGTH_SHORT).show()
         }
 
-
         binding.btnIntent.setOnClickListener {
             val intent = Intent(this@MainActivity, SubActivity::class.java)
             startActivity(intent)
@@ -49,6 +48,10 @@ class MainActivity : AppCompatActivity() {
                 this.putExtra("intentValue2", 20)
             }
             activityLauncher.launch(intent)
+        }
+
+        binding.btnIntentFragment.setOnClickListener {
+            startActivity(Intent(this, FragmentActivity::class.java))
         }
 
     }
