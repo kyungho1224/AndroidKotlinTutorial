@@ -6,4 +6,11 @@
     <string name="button_intent_and_value_name">intent value</string>
     <string name="button_intent_and_result_name">intent result</string>
     <string name="button_result_return_name">Return Result Sum</string>
+    <string name="button_intent_to_fragment_name">Go FragmentActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_button_commit_name">fragment commit</string>
+    <string name="fragment_button_remove_name">fragment remove</string>
+    <string name="fragment_button_data_pass_fragment_to_activity_name">fragment data to activity</string>
 </resources>
