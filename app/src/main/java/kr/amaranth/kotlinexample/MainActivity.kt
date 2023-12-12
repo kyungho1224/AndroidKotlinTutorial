@@ -70,6 +70,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ArrayActivity::class.java))
         }
 
+        binding.btnIntentIterable.setOnClickListener {
+            startActivity(Intent(this, IterableActivity::class.java))
+        }
+
     }
 
     private fun openActivityResultLauncher(): ActivityResultLauncher<Intent> {
