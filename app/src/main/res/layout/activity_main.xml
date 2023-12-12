@@ -86,4 +86,11 @@
         android:text="@string/button_thread_name"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_intent_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name_function"
+        android:textAllCaps="false" />
+
 </LinearLayout>
