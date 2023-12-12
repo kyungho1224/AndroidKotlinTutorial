@@ -66,6 +66,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ControlFlowActivity::class.java))
         }
 
+        binding.btnIntentArray.setOnClickListener {
+            startActivity(Intent(this, ArrayActivity::class.java))
+        }
+
     }
 
     private fun openActivityResultLauncher(): ActivityResultLauncher<Intent> {
