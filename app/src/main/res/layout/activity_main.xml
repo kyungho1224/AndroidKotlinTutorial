@@ -114,4 +114,11 @@
         android:text="@string/button_name_iterable"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_intent_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name_class"
+        android:textAllCaps="false" />
+
 </LinearLayout>
